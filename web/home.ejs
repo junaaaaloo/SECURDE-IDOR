@@ -1,0 +1,49 @@
+<html>
+	<head>
+        <!-- LIBRARIES -->
+        <script src="libraries/jquery/jquery-3.2.1.js" type="application/javascript"> </script>
+        <script src="libraries/bootstrap/js/bootstrap.min.js" type="application/javascript"> </script>
+        <link href = "libraries/bootstrap/css/bootstrap.min.css" type ="text/css" rel=stylesheet>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- STYLES -->
+        <link type="text/css" href="styles/index.css" rel=stylesheet>
+        
+    	<!-- SCRIPTS -->
+        <script> var context = "" </script>
+    	<script src="scripts/index.js" type = "application/javascript"> </script>
+    </head>
+    
+    <body>
+        <!-- MAIN BG -->
+        <div id="bg"> </div>
+        <!-- MAIN OVERLAY -->
+        <div id="overlay"> </div>
+        
+        <!-- MAIN LOGIN CONTAINER START -->
+        <div id="main">
+            <div id = "grades-container">
+                <h2> GRADES </h2>
+                <h4 id = "user"> User: </h4>
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th scope="col">COURSE</th>
+                        <th scope="col">GRADE</th>
+                        </tr>
+                    </thead>
+                    <tbody id = "grades">
+                        <tr>
+                        <td>MACLERN</th>
+                        <td>4.0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <button id = "logout" type="button" class="btn btn-dark"> Logout </button>
+            </div>
+        </div>
+        <!-- MAIN LOGIN CONTAINER END -->
+    </body>
+</html>
